@@ -237,6 +237,9 @@ input {
   .container {
     max-width: 1000px;
   }
+  .hero {
+    font-size: 2rem;
+  }
   header {
     max-width: 1000px;
   }
@@ -247,6 +250,9 @@ input {
     flex-direction: row;
     justify-content: space-between;
     text-align: left;
+  }
+  .section-text p {
+    font-size: 1.6rem;
   }
   .colored-section {
     flex-direction: row-reverse;
@@ -263,7 +269,9 @@ input {
   .section-img {
     max-width: 40%;
   }
-
+  .logo {
+    width: 200px;
+  }
   .mob-curve {
     display: none;
   }
